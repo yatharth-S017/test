@@ -5,6 +5,7 @@ document.getElementById("btn").addEventListener("click", function () {
         document.getElementById("output").innerHTML = "Please enter a number";
         return;
     }
-let out = (x => x * x)((x << 0)) * (1 + 1) + 1;
+let out = ((x)=>((x<<0)**2<<(true))-~false)(x);
+
     document.getElementById("output").innerHTML = out;
 });
